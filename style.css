@@ -1,0 +1,297 @@
+#top{
+position:fixed;
+top     : 0;
+left    : 0;
+right   :0;
+z-index : 100;
+width   :110%;
+height  :110px;
+
+
+}
+
+#top img{
+    display:flex ;
+    margin : auto;
+    height : 60%;
+    width  : 80%;
+    padding-top: 15px; 
+    }  
+
+/************* MAIN **********/
+
+#main{
+    margin-top: 119px;
+    background: url('images/mall1.jpg') ; 
+}
+h1{
+  text-align: center;
+  text-decoration: #131313;
+  font-style: italic;
+}
+
+ 
+/************* INFO **********/
+
+a.info{
+    text-decoration : none;
+    background      : #87ceeb;
+    width           : 70%;
+    height          : 100px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 30px;
+    padding         : 1px; 
+}
+
+.info img{
+    height : 70px;
+    margin : 10px;
+    float  : left;
+}
+
+.info h5{
+    padding :0fr;
+    margin-bottom :0;
+    width : 90%;
+    text-shadow: 0in;
+    font-size: 18px;
+}
+
+.info p{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    color   : #131313;
+}
+
+.info img.right{
+    float      : right;
+    margin-top : 25px;
+    height     :40px; 
+}
+
+
+/************* TOPTAB **********/
+
+#toptab{
+    position:fixed;
+    top     : 80px;
+    left    : 0;
+    z-index : 500;
+    width   : 100%;
+    height  : 40px;
+    background-color:black;
+}
+
+#toptab a{
+    float   : left;
+    display : block;
+    width   : 25%;
+    height  :35px;
+    font-weight : 1000;
+    color       : #87ceeb;
+    text-align  : center;
+    text-decoration : none;
+    padding-top     : 12px; 
+}
+
+/************* BOTTOMTAB **********/
+#bottomtab{
+    position :relative;
+    bottom   : 0;
+    left     : 0;
+    z-index  : 500;
+    width    : 100%;
+    height   : 40px;
+    background-color: black;
+}
+
+#bottomtab a{
+    float : left;
+    display :flexbox;
+    width : 50%;
+    height : 35px;
+    font-weight : 1000;
+    color       : #87ceeb;
+    text-align  : center;
+    text-decoration : none;
+    padding-top     : 12px;
+}
+
+
+
+#shop-background{
+    background: url('images/blur.jpg');
+}
+
+
+  table{
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    border-collapse:inherit; 
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;       
+    overflow: hidden;
+    
+    }
+    
+    th{
+        padding: 12px 15px;
+        font-weight: bolder;
+        color:rgb(18, 84, 226);
+        background-color: grey;
+    
+    }
+    
+    tr{
+        
+        text-align: center;
+        background-color: grey;
+        }
+    
+     td{
+         height: 50px;
+         color:rgb(44, 175, 226); 
+     }   
+    
+    tr:hover {background-color: black;}
+
+    /************* INFORMATION **********/
+.i a{
+
+        background-image: url('images/blur.jpg') ;
+        width           : 1000%;
+        height          : 100px;
+        display         :table;
+        margin          : auto;
+        margin-top      : 30px;
+        padding         : 1px; 
+    }
+     
+    .i h2{
+        padding :0fr;
+        margin-bottom :0;
+        width : 100%;
+        text-shadow: 2in;
+        font-size: 22px;
+        color:rgb(44, 175, 226);
+        text-align: center;
+    }
+    
+    .i p{
+        margin  : 0;
+        padding : 0;
+        width   : 90%;
+        color   : rgb(70, 66, 66);
+
+    }
+    .i h3{
+        color:rgb(11, 87, 117);
+    }
+
+    #information{
+        background: grey;
+     }
+
+     #w{
+        background: rgb(100, 174, 177);
+     }
+  
+     #c{
+        background: rgb(136, 226, 172);
+     }
+
+     #star{
+         background :grey;
+              } 
+    #spur{
+         background :url('images/spurblur.jpg')
+    }
+
+    #e{
+        background :rgb(236, 204, 143)
+   }
+
+   #g{
+    background :rgb(221, 196, 56);
+ }
+
+#identity{
+    background :rgb(224, 26, 26);
+}
+
+#a{
+    background :rgb(243, 242, 242);
+}
+
+#atm{
+    background :#87ceeb;
+}
+
+#black{
+text-decoration : none;
+    background      : rgb(202, 199, 199);
+    width           : 70%;
+    display         : block;
+    margin          : auto;
+    margin-top      : 30px;
+    padding         : 1px; 
+}
+
+#black img{
+    height : 100px;
+    margin : 10px;
+    float  :left;
+    width  : 152px;   
+}
+
+#white{
+    background: rgb(200, 199, 199);
+    width     : 80%;
+    display   : block;
+    padding   : 1px;
+    margin    :auto;      
+    }
+
+#white img{
+    height  :500px; 
+    }
+
+    #white h2{
+        text-align: center;
+    }
+
+    #end{
+        text-decoration : none;
+            background      : rgb(44, 175, 226);
+            width           : 60%;
+            display         : block;
+            margin          : auto;
+            margin-top      : 30px;
+            padding         : 1px; 
+        }
+
+        /************* ABOUT **********/
+        #about{
+            text-decoration : none;
+            background      : rgb(148, 132, 132);
+            width           : 60%;
+            display         : block;
+            margin          : auto;
+            margin-top      : 30px;
+            padding         : 1px; 
+        }
+        
+        h1{
+          text-align     : center;
+          text-decoration: #131313;
+          font-style     : italic;
+        }
+        h2{
+            font-style   :italic;
+        }
+
+        p{
+            font-style   : oblique;
+        }
